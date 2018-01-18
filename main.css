@@ -3,12 +3,24 @@ body {
   background: linear-gradient(#f75622, #f7a222);
   display: flex;
   align-items: center;
-  justify-content: center;
   line-height: 1; }
   body .wrapper {
+    flex: 1;
     color: white;
     font-family: "Lato", sans-serif;
     font-size: 3vw; }
+    body .wrapper .row {
+      margin: 8vw 20vw; }
+    body .wrapper .box {
+      font-family: "Anton", sans-serif;
+      background-color: #fff;
+      color: #f75622;
+      font-size: 100%;
+      border-radius: 0.5vw;
+      padding: 2vw; }
+      body .wrapper .box .text {
+        font-size: 40%;
+        margin: 0; }
     body .wrapper .daysLeft {
       color: white;
       font-family: "Anton", sans-serif;
