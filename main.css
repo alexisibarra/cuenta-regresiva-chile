@@ -1,0 +1,20 @@
+body {
+  height: 100vh;
+  background: linear-gradient(#f75622, #f7a222);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1; }
+  body .wrapper {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 3vw; }
+    body .wrapper .daysLeft {
+      color: white;
+      font-family: "Anton", sans-serif;
+      font-size: 15vw; }
+    body .wrapper #randomPhrase {
+      margin-top: 10vw;
+      font-family: "Anton", sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
